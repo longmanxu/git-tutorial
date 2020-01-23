@@ -9,8 +9,15 @@
 <body>
     WAOW
     <br>
-    <button>Now there's a button!</button>
+    <button onclick="maketwo()">There's a button!</button>
     <br>
-    <button>This is getting out of hand. Now there are 2 of them!</button>
+    <button id="hi">This is getting out of hand. Now there are 2 of them!</button>
+    <script>
+        document.getElementById("hi").style.display = "none";
+        function maketwo() {
+            console.log("hi");
+            document.getElementById("hi").style.display = "block";
+        }
+    </script>
 </body>
 </html>
