@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    WAOW
+    <br>
+    <button onclick="maketwo()">There's a button!</button>
+    <br>
+    <button id="hi">This is getting out of hand. Now there are 2 of them!</button>
+    <script>
+        document.getElementById("hi").style.display = "none";
+        function maketwo() {
+            console.log("hi");
+            document.getElementById("hi").style.display = "block";
+        }
+    </script>
+</body>
+</html>
